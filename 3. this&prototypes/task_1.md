@@ -1,5 +1,9 @@
 # Task for 1st group
 
+## level: easy
+
+### theme: this, constructor
+
 #### name: Allergies
 
 Given a person's allergy score, determine whether or not they're allergic to a given item, and their full list of allergies.

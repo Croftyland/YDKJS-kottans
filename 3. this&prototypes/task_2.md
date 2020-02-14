@@ -2,9 +2,9 @@
 
 ## level: easy
 
-### theme: this, constructor
+### theme: this, constructor, get
 
-#### name: Allergies
+#### name: Matrix
 Given a string representing a matrix of numbers, return the rows and columns of that matrix.
 
 So given a string with embedded newlines like:

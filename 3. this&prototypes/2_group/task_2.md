@@ -1,4 +1,4 @@
-# Task for 2st group
+# Task for 2nd group
 
 ## level: easy
 

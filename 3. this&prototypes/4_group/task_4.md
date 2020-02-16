@@ -1,19 +1,24 @@
-# Task for 3rd group
+# Task for 4rd group
 
 ## level: easy
 
 ### theme: this, constructor, get
 
-Given an age in seconds, calculate how old someone would be on:
+#### Bromeron's solution
 
-Earth: orbital period 365.25 Earth days, or 31557600 seconds
-Mercury: orbital period 0.2408467 Earth years
-Venus: orbital period 0.61519726 Earth years
-Mars: orbital period 1.8808158 Earth years
-Jupiter: orbital period 11.862615 Earth years
-Saturn: orbital period 29.447498 Earth years
-Uranus: orbital period 84.016846 Earth years
-Neptune: orbital period 164.79132 Earth years
-So if you were told someone were 1,000,000,000 seconds old, you should be able to say that they're 31.69 Earth-years old.
+##### Introduction
 
-If you're wondering why Pluto didn't make the cut, go watch this youtube [video](https://www.youtube.com/watch?v=Z_2gbGXzFbs)
+Determine if a number is perfect, abundant, or deficient based on Nicomachus' (60 - 120 CE) classification scheme for natural numbers.
+
+The Greek mathematician Nicomachus devised a classification scheme for natural numbers, identifying each as belonging uniquely to the categories of perfect, abundant, or deficient based on their aliquot sum. The aliquot sum is defined as the sum of the factors of a number not including the number itself. For example, the aliquot sum of 15 is (1 + 3 + 5) = 9
+
+Perfect: aliquot sum = number
+6 is a perfect number because (1 + 2 + 3) = 6
+28 is a perfect number because (1 + 2 + 4 + 7 + 14) = 28
+Abundant: aliquot sum > number
+12 is an abundant number because (1 + 2 + 3 + 4 + 6) = 16
+24 is an abundant number because (1 + 2 + 3 + 4 + 6 + 8 + 12) = 36
+Deficient: aliquot sum < number
+8 is a deficient number because (1 + 2 + 4) = 7
+Prime numbers are deficient
+Implement a way to determine whether a given number is perfect. Depending on your language track, you may also need to implement a way to determine whether a given number is abundant or deficient.

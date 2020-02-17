@@ -14,8 +14,9 @@ An isogram (also known as a "nonpattern word") is a word or phrase without a rep
 
 Examples of isograms:
 
-lumberjacks
-background
-downstream
-six-year-old
+* lumberjacks
+* background
+* downstream
+* six-year-old
+
 The word isograms, however, is not an isogram, because the s repeats.

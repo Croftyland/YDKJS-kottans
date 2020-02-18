@@ -1,4 +1,4 @@
-var Isogram = require('./isogram');
+var Isogram = require('./task_5_solution');
 
 describe('Isogram Test Suite', function () {
     it('duplicates', function () {

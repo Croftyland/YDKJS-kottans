@@ -1,4 +1,4 @@
-# Task for 5st group
+# Task for 6th group
 
 ## level: medium
 

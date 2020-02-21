@@ -1,3 +1,13 @@
+# Task for 9th group
+
+## level: medium
+
+### theme: this, class
+
+#### name: Who has the most money?
+
+##### Introduction
+
 You're going on a trip with some students and it's up to you to keep track of how much money each Student has. A student is defined like this:
 
 ```

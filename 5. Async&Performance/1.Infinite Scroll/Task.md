@@ -12,7 +12,6 @@
 ```
 (function bar(a,b,c) {
 console.log(a,b,c,arguments)}).bind({},1,2)(3,2,1)
-
 ```
 
 <details>
@@ -138,7 +137,6 @@ console.log(nissan.constructor === Car);
 console.log(nissan.constructor === ford.constructor); 
 console.log(nissan.__proto__ === Object.getPrototypeOf(nissan)); 
 console.log(ford.__proto__ === ford.constructor.prototype);  
-
 ```
 
 <details>
@@ -152,7 +150,6 @@ console.log(ford.__proto__ === ford.constructor.prototype);
   console.log(nissan.__proto__ === Object.getPrototypeOf(nissan));  //true
   console.log(ford.__proto__ === ford.constructor.prototype);       //true
   ```
-  
 </details>
 
 ### Promises 
@@ -180,12 +177,10 @@ msg(34);
 ```
 
 <details>
-
   <summary>Correct ANSWER is...</summary>
   
   ## HELLO
-  ## Ohh no: val.toUpperCase is not a function
-  
+  ## Ohh no: val.toUpperCase is not a function 
 </details>
 
 2. What will be a result of ```console.log``` ?
@@ -213,7 +208,6 @@ w.then(
 ```
 
 <details>
-
   <summary>Correct ANSWER is...</summary>
   
   ```
@@ -279,7 +273,7 @@ p.catch(error => console.log(error.message))
 
 6. What will be a result of ```console.log``` ?
 ```
-var p = new Promise((resolve, reject) => {
+let r = new Promise((resolve, reject) => {
     reject(Error('Sound of da 👮🏻‍♂️!'))
   })
   .catch(error => console.log(error))
@@ -296,7 +290,7 @@ var p = new Promise((resolve, reject) => {
 
 7. What will be a result of ```console.log``` ?
 ```
-var p = new Promise((resolve, reject) => {
+let t = new Promise((resolve, reject) => {
     reject(Error('Sound of da 👮🏻‍♂️!'))
   })
   .catch(error => console.log(error.message))

@@ -171,7 +171,7 @@ for (let i = 0; i < 6; i++){
 <details>
   <summary>Correct ANSWER is...</summary>
   
-  ##  10
+  ##  0-5
   
 </details>
 
@@ -236,7 +236,7 @@ var foo = function(){
 
 
 13. Modify the up, down, and showStep methods code so that they can be priced out, for example:
-ladder.up (). up (). down (). showStep ();
+stepper.up (). up (). down (). showStep ();
 
 ```
 let stepper = {
@@ -285,7 +285,7 @@ stepper.up().up().down().up().down().showStep(); // 1
 let user = {
   name: "Simpson",
   go: function() { console.log(this.name) }
-};
+}
 
 (user.go)() 
 ```
@@ -294,7 +294,12 @@ let user = {
   <summary>Correct ANSWER is...</summary>
   
   ##  ReferenceError: user is indefined
-  
+  ```
+  let user = {
+      name: "Simpson",
+      go: function() { console.log(this.name) }
+   }; <--
+   (user.go)(); <--
 </details>
 
 
@@ -307,7 +312,7 @@ let a = 20;
   a = '11';
     (function () {
       let c = 2;
-      console.log(a+b)/c);
+      console.log((a+b)/c);
   })();
 })();
 ```
@@ -447,7 +452,7 @@ console.log(new a().answ);
   
 </details>
 
-21. Which condition should be done for executing this code?
+22. Which condition should be done for executing this code?
 
 ```
 function myFunc() { 

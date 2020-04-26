@@ -40,7 +40,7 @@ func();
 <details>
   <summary>Correct ANSWER is...</summary>
   
-  ##  3  
+  ##  5  
 </details>
 
 3. What  will be the result after executing this code?
